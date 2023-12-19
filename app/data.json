@@ -56,14 +56,7 @@
     "intermediateClasses": "Archer",
     "advancedClasses": "Sniper",
     "masterClasses": "Bow Knight",
-    "abilities": [
-      "HP+5",
-      "STR+2",
-      "Bowrange+2",
-      "Hit +20",
-      "Bowfaire",
-      "Canto"
-    ]
+    "abilities": ["HP+5", "STR+2", "Bowrange+2", "Hit +20", "Bowfaire", "Canto"]
   },
   {
     "name": "Petra",
@@ -156,32 +149,36 @@
     "name": "Mercedes",
     "type": "Magic",
     "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "beginnerClasses": "Monk",
+    "intermediateClasses": "Priest",
+    "advancedClasses": "Bishop",
     "masterClasses": "Gremory",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Magic +2",
+      "Heal",
+      "White Magic Heal +10",
+      "Black Magic Uses x2**",
+      "Dark Magic Uses x2**",
+      "White Magic Uses x2"
     ]
   },
   {
     "name": "Marianne",
     "type": ["Magic", "Calvary"],
     "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "beginnerClasses": "Monk",
+    "intermediateClasses": "Priest",
+    "advancedClasses": "Bishop",
     "masterClasses": "Holy Knight",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Magic +2",
+      "Heal",
+      "White Magic Heal +10",
+      "Canto**",
+      "White Tomefaire",
+      "White Magic Uses x2"
     ]
   },
   {
