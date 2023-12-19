@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Caspar",
+    "type": "physical",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "War Master",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Edelgard",
+    "type": "physical",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Empress",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Byleth",
+    "type": "physical",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Enlightened One",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Bernadetta",
+    "type": "Range",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Bow Knight",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Petra",
+    "type": "physical",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Assassin",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Ingrid",
+    "type": "Flying",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Falcon knight",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Ferdinand",
+    "type": "Calvary",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Great knight",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Hubert",
+    "type": ["Magic", "Calvary"],
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Dark knight",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Dorothea",
+    "type": "Magic",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Gremory",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Mercedes",
+    "type": "Magic",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Gremory",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Marianne",
+    "type": ["Magic", "Calvary"],
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Holy Knight",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Hilda",
+    "type": ["Magic", "physical"],
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "War cleric",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
+    "name": "Linhardt",
+    "type": "Magic",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Fighter",
+    "intermediateClasses": "Brigand",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Bishop",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  }
+]
