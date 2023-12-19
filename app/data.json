@@ -34,17 +34,18 @@
   {
     "name": "Byleth",
     "type": "physical",
-    "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "firstClass": "Commoner",
+    "beginnerClasses": "Myrmidon",
+    "intermediateClasses": "Mercenary",
+    "advancedClasses": "Swordmaster",
     "masterClasses": "Enlightened One",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Speed +2",
+      "Vantage",
+      "Swordfaire",
+      "Sword Crit +10",
+      "#Sacred Power"
     ]
   },
   {
@@ -52,95 +53,103 @@
     "type": "Range",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "intermediateClasses": "Archer",
+    "advancedClasses": "Sniper",
     "masterClasses": "Bow Knight",
     "abilities": [
       "HP+5",
       "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Bowrange+2",
+      "Hit +20",
+      "Bowfaire",
+      "Canto"
     ]
   },
   {
     "name": "Petra",
     "type": "physical",
     "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
-    "masterClasses": "Assassin",
+    "beginnerClasses": "Myrmidon",
+    "intermediateClasses": "Thief",
+    "advancedClasses": "Assassin",
+    "masterClasses": "Mortal Savant**",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Speed +2",
+      "Locktouch",
+      "Steal**",
+      "Swordfaire",
+      "Stealth"
     ]
   },
   {
     "name": "Ingrid",
-    "type": "Flying",
+    "type": ["Flying", "physical"],
     "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "beginnerClasses": "Soldier",
+    "intermediateClasses": "Pegasus Knight",
+    "advancedClasses": "Paladin",
     "masterClasses": "Falcon knight",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Defense +2",
+      "Avo +10**",
+      "Canto",
+      "Darting Blow",
+      "Lancefaire"
     ]
   },
   {
     "name": "Ferdinand",
-    "type": "Calvary",
+    "type": ["Calvary", "physical"],
     "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "beginnerClasses": "Soldier",
+    "intermediateClasses": "Cavalier",
+    "advancedClasses": "Paladin",
     "masterClasses": "Great knight",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Defense +2",
+      "Canto",
+      "Desperation**",
+      "Lancefaire",
+      "Aegis"
     ]
   },
   {
     "name": "Hubert",
     "type": ["Magic", "Calvary"],
     "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "beginnerClasses": "Monk",
+    "intermediateClasses": ["#Dark Mage", "mage"],
+    "advancedClasses": "Warlock",
     "masterClasses": "Dark knight",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "#Miasma",
+      "Black Magic Uses x2",
+      "Black Tomefaire",
+      "Dark Tomefaire",
+      "Bowbreaker",
+      "Canto**"
     ]
   },
   {
     "name": "Dorothea",
     "type": "Magic",
     "firstClass": "Nobel",
-    "beginnerClasses": "Fighter",
-    "intermediateClasses": "Brigand",
-    "advancedClasses": "Grapper",
+    "beginnerClasses": "Monk",
+    "intermediateClasses": "Priest",
+    "advancedClasses": "Bishop",
     "masterClasses": "Gremory",
     "abilities": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Magic +2",
+      "Heal",
+      "White Magic Heal +10",
+      "Black Magic Uses x2**",
+      "Dark Magic Uses x2**",
+      "White Magic Uses x2"
     ]
   },
   {
