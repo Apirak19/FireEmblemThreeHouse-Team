@@ -22,7 +22,7 @@
   },
   {
     "name": "Edelgard",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246728/c080dbd01937a92252e243003865b780.png/show",
     "type": "physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Byleth",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246730/eaba2ff6fa4c909cf02fa62c96a786eb.jpeg/show",
     "type": "physical",
     "firstClass": "Commoner",
     "beginnerClasses": "Myrmidon",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Bernadetta",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246724/d5925b879ca558f1d3859ec057b66c52.png/show",
     "type": "Range",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -89,7 +89,7 @@
   },
   {
     "name": "Petra",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246722/b7d835d4f3a355c1c23c7ba7ce94b94f.png/show",
     "type": "physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Myrmidon",
@@ -114,7 +114,7 @@
   },
   {
     "name": "Ingrid",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246705/3fd8bb95e9ad98bf8d2a51acdcbc688e.png/show",
     "type": ["Flying", "physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Soldier",
@@ -139,7 +139,7 @@
   },
   {
     "name": "Ferdinand",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246726/bb9cce5612d35cf5796f72094adcb16c.png/show",
     "type": ["Calvary", "physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Soldier",
@@ -164,7 +164,7 @@
   },
   {
     "name": "Hubert",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246727/ee99f278e22b82c9c785d0516fcd15fa.png/show",
     "type": ["Magic", "Calvary"],
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -190,7 +190,7 @@
   },
   {
     "name": "Dorothea",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246723/86a1293f560d2203e2c993d568bb05c7.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -216,7 +216,7 @@
   },
   {
     "name": "Mercedes",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246707/508c0dd6c77769341ed60a70d80f300d.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -242,7 +242,7 @@
   },
   {
     "name": "Marianne",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246715/4b54687bcd6c3f3f09a7a12ca53da7f5.png/show",
     "type": ["Magic", "Calvary"],
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -268,7 +268,7 @@
   },
   {
     "name": "Hilda",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246714/5f5f2f7b88c0cedebc4f0f63cd622c6c.png/show",
     "type": ["Magic", "physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -292,7 +292,7 @@
   },
   {
     "name": "Flayn",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246704/955db8b1d254546e2dc18d464a3116e2.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Mage",
@@ -314,7 +314,7 @@
   },
   {
     "name": "**Linhardt",
-    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
+    "image": "https://img.game8.co/3246718/959078073b83310d4121787b63eaa9f0.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
