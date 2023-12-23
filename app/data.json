@@ -13,6 +13,13 @@
       "Death Blow",
       "Tome Breaker",
       "Quick Riposte"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -24,6 +31,13 @@
     "advancedClasses": "Grapper",
     "masterClasses": "Empress",
     "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ],
+    "requirements": [
       "HP+5",
       "STR+2",
       "Death Blow",
@@ -46,6 +60,13 @@
       "Swordfaire",
       "Sword Crit +10",
       "#Sacred Power"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -56,7 +77,14 @@
     "intermediateClasses": "Archer",
     "advancedClasses": "Sniper",
     "masterClasses": "Bow Knight",
-    "abilities": ["HP+5", "STR+2", "Bowrange+2", "Hit +20", "Bowfaire", "Canto"]
+    "abilities": ["HP+5", "STR+2", "Bowrange+2", "Hit +20", "Bowfaire", "Canto"],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
   },
   {
     "name": "Petra",
@@ -73,6 +101,13 @@
       "Steal**",
       "Swordfaire",
       "Stealth"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -90,6 +125,13 @@
       "Canto",
       "Darting Blow",
       "Lancefaire"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -107,6 +149,13 @@
       "Desperation**",
       "Lancefaire",
       "Aegis"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -125,6 +174,13 @@
       "Dark Tomefaire",
       "Bowbreaker",
       "Canto**"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -143,6 +199,13 @@
       "Black Magic Uses x2**",
       "Dark Magic Uses x2**",
       "White Magic Uses x2"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -161,6 +224,13 @@
       "Black Magic Uses x2**",
       "Dark Magic Uses x2**",
       "White Magic Uses x2"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -179,6 +249,13 @@
       "Canto**",
       "White Tomefaire",
       "White Magic Uses x2"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -195,6 +272,13 @@
       "Death Blow",
       "Tome Breaker",
       "Quick Riposte"
+    ],
+    "requirements": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
     ]
   },
   {
@@ -204,8 +288,15 @@
     "beginnerClasses": "Mage",
     "intermediateClasses": "Priest",
     "advancedClasses": "Grapper",
-    "masterClasses": "Bishop",
+    "masterClasses": "Holy Knight",
     "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ],
+    "requirements": [
       "HP+5",
       "STR+2",
       "Death Blow",
@@ -214,7 +305,7 @@
     ]
   },
   {
-    "name": "Linhardt",
+    "name": "**Linhardt",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -222,6 +313,13 @@
     "advancedClasses": "Grapper",
     "masterClasses": "Bishop",
     "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ],
+    "requirements": [
       "HP+5",
       "STR+2",
       "Death Blow",

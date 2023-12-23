@@ -15,7 +15,7 @@ export default function page() {
       <div>
         {characterData.map((character) => (
           <div key={character.name} className="m-5">
-            <h1 className="text-2xl font-semibold">{character.name}</h1>
+            <h1 className="text-2xl font-semibold text-pink-900">{character.name}</h1>
             <div className="p-3 pb-0">
               <span className="font-semibold">Type: </span>
               <span className="inline-block">{ Array.isArray(character.type)? character.type.join(", ") : character.type}</span>
@@ -38,6 +38,12 @@ export default function page() {
               <span className="font-semibold">Abilities: </span>
               <span>
                 {character.abilities.join(", ")}
+              </span>
+            </div>
+            <div className="px-3">
+              <span className="font-semibold">Requirements: </span>
+              <span>
+                {character.requirements.join(", ")}
               </span>
             </div>
           </div>
