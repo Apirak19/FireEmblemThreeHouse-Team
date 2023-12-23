@@ -13,10 +13,10 @@ export default function page() {
         Class and Ability Guide
       </h2>
       <div>
-        {characterData.map((character) => (
+        {characterData.map((character, index) => (
           <div key={character.name} className="m-5">
             <h1 className="text-2xl font-semibold text-pink-900">
-              {character.name}
+              {index+1}. {character.name}
             </h1>
             <img src={character.image} alt="" className="rounded-full" />
             <div className="p-3 pb-0">

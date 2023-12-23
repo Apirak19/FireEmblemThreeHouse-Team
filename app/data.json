@@ -130,11 +130,9 @@
       "Lancefaire"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Sword C",
+      "Lance A",
+      "Flying B+"
     ]
   },
   {
@@ -181,11 +179,9 @@
       "Canto**"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Lance C",
+      "Reason B+",
+      "Riding A"
     ]
   },
   {
@@ -207,11 +203,8 @@
       "White Magic Uses x2"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Reason A",
+      "Faith A"
     ]
   },
   {
@@ -247,23 +240,19 @@
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
     "intermediateClasses": "Priest",
-    "advancedClasses": "Bishop",
-    "masterClasses": "Holy Knight",
+    "advancedClasses": "Swordmaster",
+    "masterClasses": "Holy Knight, Dancer",
     "abilities": [
       "HP+5",
       "Magic +2",
-      "Heal",
-      "White Magic Heal +10",
-      "Canto**",
-      "White Tomefaire",
+      "White Magic Heal +5",
+      "Swordfaire",
+      "Sword Crit +10",
       "White Magic Uses x2"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Faith B+",
+      "Sword A"
     ]
   },
   {
@@ -274,7 +263,7 @@
     "beginnerClasses": "Fighter",
     "intermediateClasses": "Brigand",
     "advancedClasses": "Grapper",
-    "masterClasses": "War cleric",
+    "masterClasses": "Wyvern Lord",
     "abilities": [
       "HP+5",
       "STR+2",
@@ -283,11 +272,9 @@
       "Quick Riposte"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Lance C",
+      "Axe A",
+      "Flying A"
     ]
   },
   {
@@ -297,7 +284,7 @@
     "firstClass": "Nobel",
     "beginnerClasses": "Mage",
     "intermediateClasses": "Priest",
-    "advancedClasses": "Grapper",
+    "advancedClasses": "Paladin",
     "masterClasses": "Holy Knight",
     "abilities": [
       "HP+5",
