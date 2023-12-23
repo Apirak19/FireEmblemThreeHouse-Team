@@ -25,6 +25,8 @@ export default function page() {
               <span className="inline-block">
                 {character.firstClass}
                 {" => "}
+                {character.beginnerClasses}
+                {" => "}
                 {character.intermediateClasses}
                 {" => "}
                 {character.advancedClasses}

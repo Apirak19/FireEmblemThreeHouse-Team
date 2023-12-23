@@ -198,6 +198,22 @@
     ]
   },
   {
+    "name": "Flayn",
+    "type": "Magic",
+    "firstClass": "Nobel",
+    "beginnerClasses": "Mage",
+    "intermediateClasses": "Priest",
+    "advancedClasses": "Grapper",
+    "masterClasses": "Bishop",
+    "abilities": [
+      "HP+5",
+      "STR+2",
+      "Death Blow",
+      "Tome Breaker",
+      "Quick Riposte"
+    ]
+  },
+  {
     "name": "Linhardt",
     "type": "Magic",
     "firstClass": "Nobel",
