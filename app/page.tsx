@@ -15,37 +15,37 @@ export default function page() {
       <div>
         {characterData.map((character) => (
           <div key={character.name} className="m-5">
-            <h1 className="text-2xl font-semibold text-pink-900">{character.name}</h1>
-            <img src={character.image} alt="" className="rounded-full"/>
+            <h1 className="text-2xl font-semibold text-pink-900">
+              {character.name}
+            </h1>
+            <img src={character.image} alt="" className="rounded-full" />
             <div className="p-3 pb-0">
               <span className="font-semibold">Type: </span>
-              <span className="inline-block">{ Array.isArray(character.type)? character.type.join(", ") : character.type}</span>
+              <span className="inline-block">
+                {Array.isArray(character.type)
+                  ? character.type.join(", ")
+                  : character.type}
+              </span>
             </div>
             <div className="px-3">
               <span className="font-semibold">Class: </span>
-              <span className="inline-block">
-                {character.firstClass}
+              <span className="text-slate-300">{character.firstClass}</span>
                 {" => "}
-                {character.beginnerClasses}
+              <span className="text-green-500">{character.beginnerClasses}</span>
                 {" => "}
-                {character.intermediateClasses}
+              <span className="text-blue-500">{character.intermediateClasses}</span>
                 {" => "}
-                {character.advancedClasses}
+              <span className="text-purple-500">{character.advancedClasses}</span>
                 {" => "}
-                {character.masterClasses}
-              </span>
+              <span className="text-yellow-600">{character.masterClasses}</span>
             </div>
             <div className="px-3">
               <span className="font-semibold">Abilities: </span>
-              <span>
-                {character.abilities.join(", ")}
-              </span>
+              <span>{character.abilities.join(", ")}</span>
             </div>
             <div className="px-3">
               <span className="font-semibold">Requirements: </span>
-              <span>
-                {character.requirements.join(", ")}
-              </span>
+              <span className="text-red-500">{character.requirements.join(", ")}</span>
             </div>
           </div>
         ))}
