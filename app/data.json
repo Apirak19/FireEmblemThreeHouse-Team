@@ -1,6 +1,7 @@
 [
   {
     "name": "Caspar",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -15,15 +16,13 @@
       "Quick Riposte"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Axe A",
+      "Brawl A"
     ]
   },
   {
     "name": "Edelgard",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -47,6 +46,7 @@
   },
   {
     "name": "Byleth",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "physical",
     "firstClass": "Commoner",
     "beginnerClasses": "Myrmidon",
@@ -71,6 +71,7 @@
   },
   {
     "name": "Bernadetta",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "Range",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -88,6 +89,7 @@
   },
   {
     "name": "Petra",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Myrmidon",
@@ -112,6 +114,7 @@
   },
   {
     "name": "Ingrid",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": ["Flying", "physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Soldier",
@@ -136,6 +139,7 @@
   },
   {
     "name": "Ferdinand",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": ["Calvary", "physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Soldier",
@@ -160,6 +164,7 @@
   },
   {
     "name": "Hubert",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": ["Magic", "Calvary"],
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -185,6 +190,7 @@
   },
   {
     "name": "Dorothea",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -210,6 +216,7 @@
   },
   {
     "name": "Mercedes",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -235,6 +242,7 @@
   },
   {
     "name": "Marianne",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": ["Magic", "Calvary"],
     "firstClass": "Nobel",
     "beginnerClasses": "Monk",
@@ -260,6 +268,7 @@
   },
   {
     "name": "Hilda",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": ["Magic", "physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -283,6 +292,7 @@
   },
   {
     "name": "Flayn",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Mage",
@@ -297,15 +307,14 @@
       "Quick Riposte"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Lance C",
+      "Faith B+",
+      "Riding A"
     ]
   },
   {
     "name": "**Linhardt",
+    "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
@@ -320,7 +329,6 @@
       "Quick Riposte"
     ],
     "requirements": [
-      "HP+5",
       "STR+2",
       "Death Blow",
       "Tome Breaker",

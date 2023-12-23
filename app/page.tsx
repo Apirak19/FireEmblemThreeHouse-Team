@@ -16,6 +16,7 @@ export default function page() {
         {characterData.map((character) => (
           <div key={character.name} className="m-5">
             <h1 className="text-2xl font-semibold text-pink-900">{character.name}</h1>
+            <img src={character.image} alt="" className="rounded-full"/>
             <div className="p-3 pb-0">
               <span className="font-semibold">Type: </span>
               <span className="inline-block">{ Array.isArray(character.type)? character.type.join(", ") : character.type}</span>
