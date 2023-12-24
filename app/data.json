@@ -8,6 +8,7 @@
     "intermediateClasses": "Brigand",
     "advancedClasses": "Grapper",
     "masterClasses": "War Master",
+    "classAbilities": ["Axefaire", "Fistfaire", "Crit +20"],
     "abilities": [
       "HP+5",
       "STR+2",
@@ -15,10 +16,7 @@
       "Tome Breaker",
       "Quick Riposte"
     ],
-    "requirements": [
-      "Axe A",
-      "Brawl A"
-    ]
+    "requirements": ["Axe A", "Brawl A"]
   },
   {
     "name": "Edelgard",
@@ -28,7 +26,8 @@
     "beginnerClasses": "Fighter",
     "intermediateClasses": "Brigand",
     "advancedClasses": "Grapper",
-    "masterClasses": "Empress",
+    "masterClasses": "War Master, Empress",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "STR+2",
@@ -37,8 +36,8 @@
       "Quick Riposte"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
+      "Axe A",
+      "Brawl A",
       "Death Blow",
       "Tome Breaker",
       "Quick Riposte"
@@ -53,6 +52,7 @@
     "intermediateClasses": "Mercenary",
     "advancedClasses": "Swordmaster",
     "masterClasses": "Enlightened One",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "Speed +2",
@@ -78,14 +78,16 @@
     "intermediateClasses": "Archer",
     "advancedClasses": "Sniper",
     "masterClasses": "Bow Knight",
-    "abilities": ["HP+5", "STR+2", "Bowrange+2", "Hit +20", "Bowfaire", "Canto"],
-    "requirements": [
+    "classAbilities": [],
+    "abilities": [
       "HP+5",
       "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
-    ]
+      "Bowrange+2",
+      "Hit +20",
+      "Bowfaire",
+      "Canto"
+    ],
+    "requirements": ["Lance C", "Bow A", "Riding A"]
   },
   {
     "name": "Petra",
@@ -96,6 +98,7 @@
     "intermediateClasses": "Thief",
     "advancedClasses": "Assassin",
     "masterClasses": "Mortal Savant**",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "Speed +2",
@@ -121,6 +124,7 @@
     "intermediateClasses": "Pegasus Knight",
     "advancedClasses": "Paladin",
     "masterClasses": "Falcon knight",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "Defense +2",
@@ -129,11 +133,7 @@
       "Darting Blow",
       "Lancefaire"
     ],
-    "requirements": [
-      "Sword C",
-      "Lance A",
-      "Flying B+"
-    ]
+    "requirements": ["Sword C", "Lance A", "Flying B+"]
   },
   {
     "name": "Ferdinand",
@@ -144,6 +144,7 @@
     "intermediateClasses": "Cavalier",
     "advancedClasses": "Paladin",
     "masterClasses": "Great knight",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "Defense +2",
@@ -169,6 +170,7 @@
     "intermediateClasses": ["#Dark Mage", "mage"],
     "advancedClasses": "Warlock",
     "masterClasses": "Dark knight",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "#Miasma",
@@ -178,11 +180,7 @@
       "Bowbreaker",
       "Canto**"
     ],
-    "requirements": [
-      "Lance C",
-      "Reason B+",
-      "Riding A"
-    ]
+    "requirements": ["Lance C", "Reason B+", "Riding A"]
   },
   {
     "name": "Dorothea",
@@ -193,6 +191,7 @@
     "intermediateClasses": "Priest",
     "advancedClasses": "Bishop",
     "masterClasses": "Gremory",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "Magic +2",
@@ -202,10 +201,7 @@
       "Dark Magic Uses x2**",
       "White Magic Uses x2"
     ],
-    "requirements": [
-      "Reason A",
-      "Faith A"
-    ]
+    "requirements": ["Reason A", "Faith A"]
   },
   {
     "name": "Mercedes",
@@ -216,6 +212,7 @@
     "intermediateClasses": "Priest",
     "advancedClasses": "Bishop",
     "masterClasses": "Gremory",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "Magic +2",
@@ -242,6 +239,7 @@
     "intermediateClasses": "Priest",
     "advancedClasses": "Swordmaster",
     "masterClasses": "Holy Knight, Dancer",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "Magic +2",
@@ -250,10 +248,7 @@
       "Sword Crit +10",
       "White Magic Uses x2"
     ],
-    "requirements": [
-      "Faith B+",
-      "Sword A"
-    ]
+    "requirements": ["Faith B+", "Sword A"]
   },
   {
     "name": "Hilda",
@@ -264,6 +259,7 @@
     "intermediateClasses": "Brigand",
     "advancedClasses": "Grapper",
     "masterClasses": "Wyvern Lord",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "STR+2",
@@ -271,11 +267,7 @@
       "Tome Breaker",
       "Quick Riposte"
     ],
-    "requirements": [
-      "Lance C",
-      "Axe A",
-      "Flying A"
-    ]
+    "requirements": ["Lance C", "Axe A", "Flying A"]
   },
   {
     "name": "Flayn",
@@ -286,6 +278,7 @@
     "intermediateClasses": "Priest",
     "advancedClasses": "Paladin",
     "masterClasses": "Holy Knight",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "STR+2",
@@ -293,14 +286,10 @@
       "Tome Breaker",
       "Quick Riposte"
     ],
-    "requirements": [
-      "Lance C",
-      "Faith B+",
-      "Riding A"
-    ]
+    "requirements": ["Lance C", "Faith B+", "Riding A"]
   },
   {
-    "name": "**Linhardt",
+    "name": "Linhardt**",
     "image": "https://img.game8.co/3246718/959078073b83310d4121787b63eaa9f0.png/show",
     "type": "Magic",
     "firstClass": "Nobel",
@@ -308,6 +297,7 @@
     "intermediateClasses": "Brigand",
     "advancedClasses": "Grapper",
     "masterClasses": "Bishop",
+    "classAbilities": [],
     "abilities": [
       "HP+5",
       "STR+2",
@@ -315,11 +305,6 @@
       "Tome Breaker",
       "Quick Riposte"
     ],
-    "requirements": [
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
-    ]
+    "requirements": ["STR+2", "Death Blow", "Tome Breaker", "Quick Riposte"]
   }
 ]
