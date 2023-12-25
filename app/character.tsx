@@ -16,7 +16,7 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({ selectedCharacter }
          <section
             key={character.name}
             id={character.name}
-            className="my-10 mx-10 bg-yellow-100 p-5 rounded-3xl w-[750px] flex flex-col justify-center"
+            className="my-5 mx-10 bg-yellow-100 p-5 rounded-3xl w-[750px] flex flex-col justify-center"
          >
             <h1 className="text-2xl font-light text-slate-900 my-1">
                {character.name}

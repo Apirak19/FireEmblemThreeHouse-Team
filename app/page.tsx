@@ -8,7 +8,9 @@ import characterData from "./data.json";
 
 export default function page() {
   const [selectedCharacter, setSelectedCharacter] = useState("");
-  const updateSelected = (newSelected: any) => {setSelectedCharacter(newSelected)}
+  const updateSelected = (newSelected: any) => {
+    setSelectedCharacter(newSelected);
+  };
   const Character = [...characterData].sort((a, b) =>
     a.name.localeCompare(b.name)
   );
@@ -28,7 +30,8 @@ export default function page() {
     </Link>
   ));
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center">
+    <main className="min-h-screen flex flex-col items-center justify-start">
+      {/* ------------- background ------------- */}
       <div className="w-[75vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50"></div>
       <div className="flex flex-col">
         <Link
@@ -40,7 +43,7 @@ export default function page() {
           smooth={true}
           duration={200}
         >
-          <button className="bg-slate-400 rounded-full w-14 h-14">
+          <button className="bg-slate-400 rounded-full w-[5vw] h-[5vw]">
             <KeyboardArrowUpIcon fontSize="large" sx={{ color: "white" }} />
           </button>
         </Link>
@@ -48,7 +51,6 @@ export default function page() {
         {/* -------------------------- Header -------------------------- */}
         <h1
           className="text-5xl font-bold text-center mt-10 text-white"
-          id="top"
         >
           Fire Emblem Three Houses
         </h1>

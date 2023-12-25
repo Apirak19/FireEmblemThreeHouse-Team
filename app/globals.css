@@ -19,3 +19,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+@media(max-screenwidth: 500px){
+  
+}
