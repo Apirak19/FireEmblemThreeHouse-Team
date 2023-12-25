@@ -8,6 +8,7 @@ import characterData from "./data.json";
 
 export default function page() {
   const [selectedCharacter, setSelectedCharacter] = useState("");
+  const updateSelected = (newSelected: any) => {setSelectedCharacter(newSelected)}
   const Character = [...characterData].sort((a, b) =>
     a.name.localeCompare(b.name)
   );
@@ -28,7 +29,7 @@ export default function page() {
   ));
   return (
     <main className="min-h-screen flex flex-col items-center justify-center">
-      <div className="w-[75vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-sm -z-50"></div>
+      <div className="w-[75vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50"></div>
       <div className="flex flex-col">
         <Link
           className="fixed bottom-5 right-5"
@@ -66,7 +67,7 @@ export default function page() {
       </div>
       {/* -------------------------- Character -------------------------- */}
 
-      <CharacterSection />
+      <CharacterSection selectedCharacter={selectedCharacter} />
     </main>
   );
 }
