@@ -20,6 +20,14 @@ body {
   overflow-x: hidden;
 }
 
-@media(max-screenwidth: 500px){
-  
+@media (max-width: 500px) {
+  .title {
+    font-size: 30px;
+  }
+  .sub-title{
+    font-size: 20px;
+  }
+  .list{
+    width: 300px;
+  }
 }

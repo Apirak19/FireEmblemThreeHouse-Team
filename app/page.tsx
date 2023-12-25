@@ -50,17 +50,17 @@ export default function page() {
 
         {/* -------------------------- Header -------------------------- */}
         <h1
-          className="text-5xl font-bold text-center mt-10 text-white"
+          className="title text-5xl font-bold text-center mt-10 text-white"
         >
           Fire Emblem Three Houses
         </h1>
-        <h2 className="text-xl text-white font-bold text-center mt-5">
+        <h2 className="sub-title text-xl text-white font-bold text-center mt-5">
           Class and Ability Guide for Each Character
         </h2>
         <h2 className="text-xl underline text-white font-bold text-start mt-5">
           List of Characters
         </h2>
-        <div className="w-[750px] flex flex-wrap mt-2 text-white">
+        <div className="list w-[750px] flex flex-wrap mt-2 text-white">
           {characterList}
         </div>
         <h1 className="text-yellow-500 font-bold text-center mt-5">
