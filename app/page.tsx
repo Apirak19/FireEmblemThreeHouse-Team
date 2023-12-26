@@ -16,60 +16,74 @@ export default function page() {
   );
 
   const characterList = Character.map((item) => (
-    <Link
-      className="mx-1 cursor-pointer hover:text-yellow-500 hover:underline"
-      key={item.name}
-      to={item.name}
-      smooth={true}
-      duration={200}
-      onClick={() => {
-        setSelectedCharacter(item.name);
-      }}
-    >
-      {item.name}
-    </Link>
-  ));
-  return (
-    <main className="min-h-screen flex flex-col items-center justify-start">
-      {/* ------------- background ------------- */}
-      <div className="w-[75vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50"></div>
-      <div className="flex flex-col">
+    <div key={item.name}>
+      <button className="w-[300px] hover:bg-slate-300 rounded-sm flex flex-col justify-center items-center text-center py-[7px]">
         <Link
-          className="fixed bottom-5 right-5"
-          onClick={() => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-          }}
-          to=""
+          className=" w-[300px] text-xl flex flex-col justify-center items-center"
+          to={item.name}
           smooth={true}
           duration={200}
+          onClick={() => {
+            setSelectedCharacter(item.name);
+          }}
         >
-          <button className="bg-slate-400 rounded-full w-[5vw] h-[5vw]">
-            <KeyboardArrowUpIcon fontSize="large" sx={{ color: "white" }} />
-          </button>
+          <p className="w-[200px] text-start">
+          {item.name}
+          </p>
         </Link>
+      </button>
+      <div className="w-full bg-slate-900 h-[1px] blur-[1px]"></div>
+    </div>
+  ));
+  return (
+    <main className="min-h-screen">
+      {/* ------------- To Top ------------- */}
+      <Link
+        className="fixed bottom-5 right-5"
+        onClick={() => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }}
+        to=""
+        smooth={true}
+        duration={200}
+      >
+        <button className="bg-slate-400 rounded-full w-[5vw] h-[5vw]">
+          <KeyboardArrowUpIcon fontSize="large" sx={{ color: "white" }} />
+        </button>
+      </Link>
+      {/* -------------------------- Sidebar -------------------------- */}
 
-        {/* -------------------------- Header -------------------------- */}
-        <h1
-          className="title text-5xl font-bold text-center mt-10 text-white"
-        >
+      <div
+        className="w-[300px] list flex flex-col justify-start items-center min-h-screen bg-slate-700 text-white fixed top-0 left-0 font-light rounded-md shadow-2xl"
+        style={{
+          boxShadow:
+            "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
+        }}
+      >
+        <h2 className="w-[300px] text-xl text-slate-700 font-bold mb-1 bg-slate-400 py-3 text-center">
+          Characters
+        </h2>
+        <div>{characterList}</div>
+      </div>
+      {/* -------------------------- Header -------------------------- */}
+      <section className="max-w-[calc(100%-200px)] relative left-[150px] flex flex-col items-center justify-start -z-10">
+        <div className="w-[60vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50">
+          {/* ------------- background ------------- */}
+        </div>
+        <h1 className="title text-5xl font-bold text-center mt-5 text-white">
           Fire Emblem Three Houses
         </h1>
-        <h2 className="sub-title text-xl text-white font-bold text-center mt-5">
+        <h2 className="sub-title text-xl text-white font-bold text-center mt-1">
           Class and Ability Guide for Each Character
         </h2>
-        <h2 className="text-xl underline text-white font-bold text-start mt-5">
-          List of Characters
-        </h2>
-        <div className="list w-[750px] flex flex-wrap mt-2 text-white">
-          {characterList}
-        </div>
-        <h1 className="text-yellow-500 font-bold text-center mt-5">
+
+        <h1 className="text-yellow-500 font-bold text-center mt-1">
           **The details are based on characters' ideal end-game status**
         </h1>
-      </div>
-      {/* -------------------------- Character -------------------------- */}
+        {/* -------------------------- Character -------------------------- */}
 
-      <CharacterSection selectedCharacter={selectedCharacter} />
+        <CharacterSection selectedCharacter={selectedCharacter} />
+      </section>
     </main>
   );
 }
