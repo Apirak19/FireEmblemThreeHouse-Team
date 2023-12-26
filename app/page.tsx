@@ -7,7 +7,7 @@ import CharacterSection from "./character";
 import characterData from "./data.json";
 
 export default function page() {
-  const [selectedCharacter, setSelectedCharacter] = useState("");
+  const [selectedCharacter, setSelectedCharacter] = useState("Byleth");
   const updateSelected = (newSelected: any) => {
     setSelectedCharacter(newSelected);
   };
@@ -17,7 +17,7 @@ export default function page() {
 
   const characterList = Character.map((item) => (
     <div key={item.name}>
-      <button className="w-[300px] hover:bg-slate-300 rounded-sm flex flex-col justify-center items-center text-center py-[7px]">
+      <button className="w-[300px] hover:bg-slate-300 hover:text-slate-700 rounded-sm flex flex-col justify-center items-center text-center py-[7px]">
         <Link
           className=" w-[300px] text-xl flex flex-col justify-center items-center"
           to={item.name}
@@ -27,16 +27,14 @@ export default function page() {
             setSelectedCharacter(item.name);
           }}
         >
-          <p className="w-[200px] text-start">
-          {item.name}
-          </p>
+          <p className="w-[200px] text-start">{item.name}</p>
         </Link>
       </button>
       <div className="w-full bg-slate-900 h-[1px] blur-[1px]"></div>
     </div>
   ));
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen max-w-[1280px] mx-auto">
       {/* ------------- To Top ------------- */}
       <Link
         className="fixed bottom-5 right-5"
@@ -53,18 +51,20 @@ export default function page() {
       </Link>
       {/* -------------------------- Sidebar -------------------------- */}
 
-      <div
-        className="w-[300px] list flex flex-col justify-start items-center min-h-screen bg-slate-700 text-white fixed top-0 left-0 font-light rounded-md shadow-2xl"
-        style={{
-          boxShadow:
-            "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
-        }}
-      >
-        <h2 className="w-[300px] text-xl text-slate-700 font-bold mb-1 bg-slate-400 py-3 text-center">
-          Characters
-        </h2>
-        <div>{characterList}</div>
-      </div>
+      <article className="relative top-0 left-0 inline-block overflow-y-auto">
+        <div
+          className="w-[300px] list flex flex-col justify-start items-center bg-slate-700 text-white font-light rounded-md shadow-2xl fixed"
+          style={{
+            boxShadow:
+              "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
+          }}
+        >
+          <h2 className="w-[300px] text-xl text-slate-700 font-bold mb-1 bg-slate-400 h-[100px] text-center">
+            Characters
+          </h2>
+          <div className="h-max-[cal(100%-300px)]">{characterList}</div>
+        </div>
+      </article>
       {/* -------------------------- Header -------------------------- */}
       <section className="max-w-[calc(100%-200px)] relative left-[150px] flex flex-col items-center justify-start -z-10">
         <div className="w-[60vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50">

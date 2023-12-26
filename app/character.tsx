@@ -19,25 +19,25 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
     <section
       key={character.name}
       id={character.name}
-      className="my-3 mx-10 bg-yellow-100 px-5 py-2 rounded-[3rem] w-[600px] h-[500px] flex flex-col justify-start"
+      className="my-3 mx-10 bg-slate-400 px-5 py-2 rounded-[3rem] w-[600px] h-[500px] flex flex-col justify-start"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
       }}
     >
-      <h1 className="text-2xl font-light text-slate-900 my-1">
+      <h1 className="text-2xl font-normal text-black my-1">
         {character.name}
       </h1>
       {/* -------------------------- Line -------------------------- */}
-      <div className="w-full bg-slate-900 h-[1px] blur-[1px]mb-[2px]"></div>
-      <div className="w-full bg-yellow-900 h-[1px] blur-[2px] mb-3"></div>
+      <div className="w-full bg-black h-[1px] blur-[1px] mb-[2px]"></div>
+      <div className="w-full bg-yellow-900 h-[1px] blur-[1px] mb-3"></div>
       {/* -------------------------- Detail -------------------------- */}
       <div className="flex">
         <img
           src={character.image}
           alt={character.name}
           title={character.name}
-          className="rounded-full w-[150px] h-[150px]"
+          className="rounded-full w-[150px] h-[150px] object-cover"
         />
         {/* -------------------------- Text -------------------------- */}
         <div className="data-section">

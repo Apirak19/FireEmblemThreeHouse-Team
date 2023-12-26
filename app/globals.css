@@ -17,7 +17,9 @@ body {
   background-attachment: fixed;
   font-weight: light;
   box-sizing: border-box;
-  overflow-x: hidden;
+}
+main{
+  width: clamp();
 }
 
 @media (max-width: 500px) {
