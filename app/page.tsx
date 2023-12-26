@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import CharacterSection from "./character";
+import './globals.css'
 
 import characterData from "./data.json";
 
@@ -51,7 +52,7 @@ export default function page() {
       </Link>
       {/* -------------------------- Sidebar -------------------------- */}
 
-      <article className="relative top-0 left-0 inline-block overflow-y-auto">
+      <aside className="relative top-0 left-0 inline-block">
         <div
           className="w-[300px] list flex flex-col justify-start items-center bg-slate-700 text-white font-light rounded-md shadow-2xl fixed"
           style={{
@@ -62,9 +63,9 @@ export default function page() {
           <h2 className="w-[300px] text-xl text-slate-700 font-bold mb-1 bg-slate-400 h-[100px] text-center">
             Characters
           </h2>
-          <div className="h-max-[cal(100%-300px)]">{characterList}</div>
+          <div className="h-max-[cal(100%-300px)] overflow-y-auto">{characterList}</div>
         </div>
-      </article>
+      </aside>
       {/* -------------------------- Header -------------------------- */}
       <section className="max-w-[calc(100%-200px)] relative left-[150px] flex flex-col items-center justify-start -z-10">
         <div className="w-[60vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50">
