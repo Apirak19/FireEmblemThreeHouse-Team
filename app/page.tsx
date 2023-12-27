@@ -52,9 +52,9 @@ export default function page() {
       </Link>
       {/* -------------------------- Sidebar -------------------------- */}
 
-      <aside className="relative top-0 left-0 inline-block">
+      <aside className="relative top-0 left-0 inline h-screen">
         <div
-          className="w-[300px] list flex flex-col justify-start items-center bg-slate-700 text-white font-light rounded-md shadow-2xl fixed"
+          className="w-[300px] list flex flex-col justify-start items-center bg-slate-700 text-white font-light rounded-md shadow-2xl"
           style={{
             boxShadow:
               "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
