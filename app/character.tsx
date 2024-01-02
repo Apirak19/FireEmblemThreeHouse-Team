@@ -19,15 +19,13 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
     <section
       key={character.name}
       id={character.name}
-      className="my-3 mx-10 bg-slate-400 px-5 py-2 rounded-[3rem] w-[600px] h-[500px] flex flex-col justify-start"
+      className="my-3 mx-10 bg-slate-400 px-5 py-2 rounded-[2rem] w-[600px] h-[500px] flex flex-col justify-start"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
       }}
     >
-      <h1 className="text-2xl font-normal text-black my-1">
-        {character.name}
-      </h1>
+      <h1 className="text-2xl font-normal text-black my-1">{character.name}</h1>
       {/* -------------------------- Line -------------------------- */}
       <div className="w-full bg-black h-[1px] blur-[1px] mb-[2px]"></div>
       <div className="w-full bg-yellow-900 h-[1px] blur-[1px] mb-3"></div>
@@ -43,7 +41,7 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
         <div className="data-section">
           {/* -------------------------- Type -------------------------- */}
           <article className="flex item-start max-w-[550px]">
-            <p className="ml-4 font-semibold w-[350px] border-b-orange-700 border-b-2">
+            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
               <span className="w-[150px] pl-1 font-semibold ">Type: </span>
               <span className="pl-[100px]">
                 {Array.isArray(character.type)
@@ -53,23 +51,38 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
             </p>
           </article>
           {/* -------------------------- Class -------------------------- */}
-          <article className="flex item-start max-w-[550px]">
-            <p className="pl-1 ml-4 font-semibold w-[150px] inline-block">
-              Class:{" "}
+          <article className="flex flex-col item-start max-w-[550px]">
+            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
+              <span className="w-[150px] pl-1 font-semibold ">Class: </span>
+              <span className="text-slate-500 pl-[100px]">
+                {character.firstClass}
+              </span>
             </p>
-            <p className="flex flex-col">
-              <span className="text-slate-500">{character.firstClass}</span>
-              <span className="text-green-500">
+            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
+              <span className="w-[150px] pl-1 font-semibold "></span>
+              <span className="text-green-500 pl-[150px]">
                 {character.beginnerClasses}
               </span>
-              <span className="text-blue-500">
+            </p>
+            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
+              <span className="w-[150px] pl-1 font-semibold "></span>
+              <span className="text-blue-500 pl-[150px]">
                 {character.intermediateClasses}
               </span>
-              <span className="text-purple-500">
+            </p>
+            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
+              <span className="w-[150px] pl-1 font-semibold "></span>
+              <span className="text-purple-500 pl-[150px]">
                 {character.advancedClasses}
               </span>
-              <span className="text-yellow-600">{character.masterClasses}</span>
             </p>
+            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
+              <span className="text-blue-500 pl-[100px]"></span>
+            </p>
+            <span className="text-purple-500 pl-[100px]"></span>
+            <span className="text-yellow-600 pl-[100px]">
+              {character.masterClasses}
+            </span>
           </article>
           {/* -------------------------- Class Abilities -------------------------- */}
           {/* {character.classAbilities && (

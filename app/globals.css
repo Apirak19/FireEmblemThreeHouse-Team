@@ -27,7 +27,7 @@ body {
   align-items: center;
 }
 main {
-  width: 1280px;
+  width: 100vw;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -35,13 +35,31 @@ main {
 }
 aside {
   position: relative;
+  height: calc(100vh - 40px);
   max-width: 300px;
   top: 0;
   left: 0;
+  margin: 0;
+}
+.container {
+  border-radius: 0.75rem;
+  overflow: hidden;
   margin: 20px 0;
 }
 .header {
   height: 100px;
+}
+.content {
+  width: 300px;
+  max-height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  background-color: #606060; /* Assuming you want a gray background */
+  color: white;
+  font-weight: lighter;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 @media (max-width: 801px) {
