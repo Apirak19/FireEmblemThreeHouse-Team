@@ -19,37 +19,30 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
     <section
       key={character.name}
       id={character.name}
-      className="my-3 mx-10 bg-slate-400 px-5 py-2 rounded-[2rem] w-[600px] h-[500px] flex flex-col justify-start"
-      style={{
-        boxShadow:
-          "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
-      }}
+      className="table"
     >
       <h1 className="text-2xl font-normal text-black my-1">{character.name}</h1>
       {/* -------------------------- Line -------------------------- */}
       <div className="w-full bg-black h-[1px] blur-[1px] mb-[2px]"></div>
       <div className="w-full bg-yellow-900 h-[1px] blur-[1px] mb-3"></div>
       {/* -------------------------- Detail -------------------------- */}
-      <div className="flex">
+      <div className="detail">
         <img
           src={character.image}
           alt={character.name}
           title={character.name}
-          className="rounded-full w-[150px] h-[150px] object-cover"
+          className="rounded-full w-[150px] h-[150px] object-cover col-span-1 row-span-15"
         />
         {/* -------------------------- Text -------------------------- */}
-        <div className="data-section">
+       
           {/* -------------------------- Type -------------------------- */}
-          <article className="flex item-start max-w-[550px]">
-            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
-              <span className="w-[150px] pl-1 font-semibold ">Type: </span>
-              <span className="pl-[100px]">
+              <span className="font-semibold bg-slate-300 col-span-2 row-span-1">Type: </span>
+              <span className="col-span-2 row-span-1">
                 {Array.isArray(character.type)
                   ? character.type.join(", ")
                   : character.type}
               </span>
-            </p>
-          </article>
+     
           {/* -------------------------- Class -------------------------- */}
           <article className="flex flex-col item-start max-w-[550px]">
             <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
@@ -77,12 +70,11 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
               </span>
             </p>
             <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
-              <span className="text-blue-500 pl-[100px]"></span>
-            </p>
-            <span className="text-purple-500 pl-[100px]"></span>
-            <span className="text-yellow-600 pl-[100px]">
+              <span className="w-[150px] pl-1 font-semibold "></span>
+              <span className="text-yellow-600 pl-[150px]">
               {character.masterClasses}
-            </span>
+              </span>
+            </p>
           </article>
           {/* -------------------------- Class Abilities -------------------------- */}
           {/* {character.classAbilities && (
@@ -119,7 +111,7 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
               ))}
             </div>
           </article>
-        </div>
+        
       </div>
     </section>
   ));

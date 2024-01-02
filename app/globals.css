@@ -61,6 +61,19 @@ aside {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+.table{
+  width: 600px;
+  height: 500px;
+  margin: 0.75rem 2.5rem;
+  padding: 1.25rem 0.5rem;
+  background-color: #778899;
+  border-radius: 2rem;
+}
+.detail{
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(15, 30px);
+}
 
 @media (max-width: 801px) {
   main {
