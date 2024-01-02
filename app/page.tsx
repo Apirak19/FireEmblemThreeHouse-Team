@@ -52,20 +52,18 @@ export default function page() {
       </Link> */}
       {/* -------------------------- Sidebar -------------------------- */}
 
-      <aside>
-        <div className="header">
-          <h2 className="w-[300px] text-xl text-slate-700 font-bold mb-1 bg-slate-400 h-[100px] text-center">
+      <aside className="">
+        <div className="container rounded-xl overflow-hidden">
+          <h2 className="w-[300px] text-xl text-slate-700 font-bold bg-slate-400 h-[75px] text-center flex justify-center items-center">
             Characters
           </h2>
-        </div>
-        <div className="content">
-          
+          <div className="content w-[300px] flex flex-col bg-gray-600 text-white font-light shadow-sm ">
             {characterList}
-          
+          </div>
         </div>
       </aside>
       {/* -------------------------- Header -------------------------- */}
-      <section className="max-w-[calc(100%-200px)] relative left-[150px] flex flex-col items-center justify-start -z-10 col-span-2">
+      <section className="max-w-[calc(100%-200px)] flex flex-col items-center justify-start col-span-2">
         <div className="w-[60vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50">
           {/* ------------- background ------------- */}
         </div>
