@@ -17,10 +17,9 @@ export default function page() {
   );
 
   const characterList = Character.map((item) => (
-    <div key={item.name}>
-      <button className="w-[300px] hover:bg-slate-300 hover:text-slate-700 rounded-sm flex flex-col justify-center items-center text-center py-[7px]">
+      <button key={item.name} className="w-[300px] hover:bg-slate-300 hover:text-slate-700 rounded-sm flex flex-col justify-center items-center text-center py-[7px] border-t-[1px] border-b-[1px] border-slate-900">
         <Link
-          className=" w-[300px] text-xl flex flex-col justify-center items-center"
+          className=" w-[300px] text-xl flex flex-col justify-center items-center font-normal"
           to={item.name}
           smooth={true}
           duration={200}
@@ -31,8 +30,6 @@ export default function page() {
           <p className="w-[200px] text-start">{item.name}</p>
         </Link>
       </button>
-      <div className="w-full bg-slate-900 h-[1px] blur-[1px]"></div>
-    </div>
   ));
   return (
     <main>
@@ -54,14 +51,14 @@ export default function page() {
 
       <aside>
         <div className="container">
-          <h2 className="w-[300px] text-xl text-slate-700 font-bold bg-slate-400 h-[75px] text-center flex justify-center items-center">
+          <h2 className="w-[300px] text-xl text-slate-900 font-bold bg-slate-400 h-[75px] text-center flex justify-center items-center">
             Characters
           </h2>
           <div className="content">{characterList}</div>
         </div>
       </aside>
       {/* -------------------------- Header -------------------------- */}
-      <section className="max-w-[calc(100%-200px)] flex flex-col items-center justify-start col-span-2">
+      <section className="page-content">
         <div className="w-[60vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50">
           {/* ------------- background ------------- */}
         </div>

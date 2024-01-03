@@ -37,10 +37,7 @@
     ],
     "requirements": [
       "Axe A",
-      "Brawl A",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Brawl A"
     ]
   },
   {
@@ -61,11 +58,8 @@
       "Sword Crit +10"
     ],
     "requirements": [
-      "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Axe A",
+      "Brawl A"
     ]
   },
   {
