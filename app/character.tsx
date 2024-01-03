@@ -16,66 +16,57 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
   const FilterCharacter = Character.filter(
     (item) => item.name === selectedCharacter
   ).map((character) => (
-    <section
-      key={character.name}
-      id={character.name}
-      className="table"
-    >
-      <h1 className="text-2xl font-normal text-black my-1">{character.name}</h1>
+    <section key={character.name} id={character.name} className="card">
+      <h1 className="text-2xl font-normal text-black my-1 text-start">
+        {character.name}
+      </h1>
       {/* -------------------------- Line -------------------------- */}
-      <div className="w-full bg-black h-[1px] blur-[1px] mb-[2px]"></div>
+      <div className="w-full bg-black h-[1px] blur-[1px] mb-[2px] z-10"></div>
       <div className="w-full bg-yellow-900 h-[1px] blur-[1px] mb-3"></div>
       {/* -------------------------- Detail -------------------------- */}
-      <div className="detail">
+      <div className="card-content flex justify-center items-start">
         <img
           src={character.image}
           alt={character.name}
           title={character.name}
-          className="rounded-full w-[150px] h-[150px] object-cover col-span-1 row-span-15"
+          className="rounded-full w-[150px] h-[150px] object-cover"
         />
-        {/* -------------------------- Text -------------------------- */}
-       
+        <div className="detail ">
           {/* -------------------------- Type -------------------------- */}
-              <span className="font-semibold bg-slate-300 col-span-2 row-span-1">Type: </span>
-              <span className="col-span-2 row-span-1">
-                {Array.isArray(character.type)
-                  ? character.type.join(", ")
-                  : character.type}
-              </span>
-     
+          <span className="col-span-1 row-span-1 bg-slate-300">Type: </span>
+          <span className="col-span-1 row-span-1 bg-slate-300">
+            {Array.isArray(character.type)
+              ? character.type.join(", ")
+              : character.type}
+          </span>
+
           {/* -------------------------- Class -------------------------- */}
-          <article className="flex flex-col item-start max-w-[550px]">
-            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
-              <span className="w-[150px] pl-1 font-semibold ">Class: </span>
-              <span className="text-slate-500 pl-[100px]">
-                {character.firstClass}
-              </span>
-            </p>
-            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
-              <span className="w-[150px] pl-1 font-semibold "></span>
-              <span className="text-green-500 pl-[150px]">
-                {character.beginnerClasses}
-              </span>
-            </p>
-            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
-              <span className="w-[150px] pl-1 font-semibold "></span>
-              <span className="text-blue-500 pl-[150px]">
-                {character.intermediateClasses}
-              </span>
-            </p>
-            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
-              <span className="w-[150px] pl-1 font-semibold "></span>
-              <span className="text-purple-500 pl-[150px]">
-                {character.advancedClasses}
-              </span>
-            </p>
-            <p className="ml-4 my-[1px] px-2 py-1 font-semibold w-[350px] bg-slate-300 ">
-              <span className="w-[150px] pl-1 font-semibold "></span>
-              <span className="text-yellow-600 pl-[150px]">
-              {character.masterClasses}
-              </span>
-            </p>
-          </article>
+
+          <span className="col-span-1 row-span-5 bg-slate-300">Class: </span>
+          <span className="col-span-1 row-span-1 bg-slate-300">
+            {character.firstClass}
+          </span>
+
+          
+          <span className="col-span-1 row-span-1 bg-slate-300">
+            {character.beginnerClasses}
+          </span>
+
+          
+          <span className="col-span-1 row-span-1 bg-slate-300">
+            {character.intermediateClasses}
+          </span>
+
+          
+          <span className="col-span-1 row-span-1 bg-slate-300">
+            {character.advancedClasses}
+          </span>
+
+          
+          <span className="col-span-1 row-span-1 bg-slate-300">
+            {character.masterClasses}
+          </span>
+
           {/* -------------------------- Class Abilities -------------------------- */}
           {/* {character.classAbilities && (
                 <div className="px-3">
@@ -90,28 +81,22 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
                 </div>
               )} */}
           {/* -------------------------- Abilities -------------------------- */}
-          <article className="flex item-start max-w-[550px]">
-            <p className="pl-1 ml-4 font-semibold w-[150px] inline-block">
+            <span className="col-span-1 row-span-5 bg-slate-300">
               Abilities:
-            </p>
-            <div className="flex flex-col">
+            </span>
+            
               {character.abilities.map((ability) => (
-                <span>{ability}</span>
+                <span className="col-span-1 row-span-1 bg-slate-300">{ability}</span>
               ))}
-            </div>
-          </article>
+            
           {/* -------------------------- Requirements -------------------------- */}
-          <article className="flex item-start max-w-[550px]">
-            <p className="pl-1 ml-4 font-semibold w-[150px] inline-block">
+            <span className={`col-span-1 row-span-${character.requirements.length} bg-slate-300`}>
               Requirements:
-            </p>
-            <div className="flex flex-col">
+            </span>
               {character.requirements.map((req) => (
-                <span className="text-red-500 inline-block">{req}</span>
+                <span className="col-span-1 row-span-1 bg-slate-300">{req}</span>
               ))}
-            </div>
-          </article>
-        
+        </div>
       </div>
     </section>
   ));
