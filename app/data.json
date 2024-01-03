@@ -2,7 +2,7 @@
   {
     "name": "Caspar",
     "image": "https://img.game8.co/3246725/b43768910eee71865ea94c7f64ae5ccc.png/show",
-    "type": "physical",
+    "type": "Physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
     "intermediateClasses": "Brigand",
@@ -21,7 +21,7 @@
   {
     "name": "Edelgard",
     "image": "https://img.game8.co/3246728/c080dbd01937a92252e243003865b780.png/show",
-    "type": "physical",
+    "type": "Physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
     "intermediateClasses": "Brigand",
@@ -46,7 +46,7 @@
   {
     "name": "Byleth",
     "image": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/wzzzmqtbs0z8pmascek5.jpg",
-    "type": "physical",
+    "type": "Physical",
     "firstClass": "Commoner",
     "beginnerClasses": "Myrmidon",
     "intermediateClasses": "Mercenary",
@@ -91,7 +91,7 @@
   {
     "name": "Petra",
     "image": "https://img.game8.co/3246722/b7d835d4f3a355c1c23c7ba7ce94b94f.png/show",
-    "type": "physical",
+    "type": "Physical",
     "firstClass": "Nobel",
     "beginnerClasses": "Myrmidon",
     "intermediateClasses": "Thief",
@@ -117,7 +117,7 @@
   {
     "name": "Ingrid",
     "image": "https://img.game8.co/3246705/3fd8bb95e9ad98bf8d2a51acdcbc688e.png/show",
-    "type": ["Flying", "physical"],
+    "type": ["Flying", "Physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Soldier",
     "intermediateClasses": "Pegasus Knight",
@@ -137,7 +137,7 @@
   {
     "name": "Ferdinand",
     "image": "https://img.game8.co/3246726/bb9cce5612d35cf5796f72094adcb16c.png/show",
-    "type": ["Calvary", "physical"],
+    "type": ["Calvary", "Physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Soldier",
     "intermediateClasses": "Cavalier",
@@ -252,7 +252,7 @@
   {
     "name": "Lysithea",
     "image": "https://img.game8.co/3246714/5f5f2f7b88c0cedebc4f0f63cd622c6c.png/show",
-    "type": ["Magic", "physical"],
+    "type": ["Magic", "Physical"],
     "firstClass": "Nobel",
     "beginnerClasses": "Fighter",
     "intermediateClasses": "Brigand",

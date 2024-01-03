@@ -17,24 +17,24 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
     (item) => item.name === selectedCharacter
   ).map((character) => (
     <section key={character.name} id={character.name} className="card">
-      <h1 className="text-2xl font-normal text-black my-1 text-start">
+      <h1 className="text-2xl font-normal text-black my-1 text-start mx-[20px]">
         {character.name}
       </h1>
       {/* -------------------------- Line -------------------------- */}
-      <div className="w-full bg-black h-[1px] blur-[1px] mb-[2px] z-10"></div>
-      <div className="w-full bg-yellow-900 h-[1px] blur-[1px] mb-3"></div>
+      <div className=" bg-black h-[1px] blur-[1px] mb-[2px] z-10 mx-[20px]"></div>
+      <div className=" bg-yellow-900 h-[1px] blur-[1px] mb-3  mx-[20px]"></div>
       {/* -------------------------- Detail -------------------------- */}
-      <div className="card-content flex justify-center items-start">
+      <div className="card-content flex justify-start items-start">
         <img
           src={character.image}
           alt={character.name}
           title={character.name}
-          className="rounded-full w-[150px] h-[150px] object-cover"
+          className="rounded-full w-[150px] h-[150px] object-cover mx-[10px]"
         />
         <div className="detail ">
           {/* -------------------------- Type -------------------------- */}
-          <span className="col-span-1 row-span-1 bg-slate-300">Type: </span>
-          <span className="col-span-1 row-span-1 bg-slate-300">
+          <span className="card-text">Type: </span>
+          <span className="card-text">
             {Array.isArray(character.type)
               ? character.type.join(", ")
               : character.type}
@@ -43,27 +43,27 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
           {/* -------------------------- Class -------------------------- */}
 
           <span className="col-span-1 row-span-5 bg-slate-300">Class: </span>
-          <span className="col-span-1 row-span-1 bg-slate-300">
+          <span className="card-text">
             {character.firstClass}
           </span>
 
           
-          <span className="col-span-1 row-span-1 bg-slate-300">
+          <span className="card-text">
             {character.beginnerClasses}
           </span>
 
           
-          <span className="col-span-1 row-span-1 bg-slate-300">
+          <span className="card-text">
             {character.intermediateClasses}
           </span>
 
           
-          <span className="col-span-1 row-span-1 bg-slate-300">
+          <span className="card-text">
             {character.advancedClasses}
           </span>
 
           
-          <span className="col-span-1 row-span-1 bg-slate-300">
+          <span className="card-text">
             {character.masterClasses}
           </span>
 
@@ -81,12 +81,12 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
                 </div>
               )} */}
           {/* -------------------------- Abilities -------------------------- */}
-            <span className="col-span-1 row-span-5 bg-slate-300">
+          <span className={`col-span-1 row-span-${character.abilities.length} bg-slate-300`}>
               Abilities:
             </span>
             
               {character.abilities.map((ability) => (
-                <span className="col-span-1 row-span-1 bg-slate-300">{ability}</span>
+                <span className="card-text">{ability}</span>
               ))}
             
           {/* -------------------------- Requirements -------------------------- */}
@@ -94,9 +94,12 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
               Requirements:
             </span>
               {character.requirements.map((req) => (
-                <span className="col-span-1 row-span-1 bg-slate-300">{req}</span>
+                <span className="card-text">{req}</span>
               ))}
         </div>
+      </div>
+      <div className="h-[2000px]">
+        555
       </div>
     </section>
   ));

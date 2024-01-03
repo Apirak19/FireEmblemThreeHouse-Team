@@ -34,14 +34,17 @@ main {
   align-items: start;
 }
 aside {
-  position: relative;
   height: calc(100vh - 40px);
   max-width: 300px;
+  position: relative;
   top: 0;
   left: 0;
   margin: 0;
 }
 .container {
+  position: relative;
+  top: 0;
+  left: 0;
   border-radius: 0.75rem;
   overflow: hidden;
   margin: 20px 0;
@@ -71,10 +74,16 @@ aside {
 }
 .detail{
   display: grid;
-  grid-template-columns: repeat(2, 150px);
+  grid-template-columns: 150px 200px;
   grid-template-rows: repeat(auto, 30px);
   font-weight: 600;
-  gap: 5px;
+  gap: 2.5px;
+}
+.card-text{
+  padding: 0px 10px;
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: rgb(203 213 225);;
 }
 
 @media (max-width: 801px) {
