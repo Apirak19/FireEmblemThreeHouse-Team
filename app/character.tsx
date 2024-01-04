@@ -35,7 +35,6 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
           onChange={(e) => {
             setSelectedCharacter(e.target.value);
           }}
-          className="block relative top-0 right-0"
         >
           {Character.map((character) => (
             <option key={character.name} value={character.name}>
