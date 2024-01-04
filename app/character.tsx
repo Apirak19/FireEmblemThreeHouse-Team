@@ -50,15 +50,25 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
             <span className="col-span-1 row-span-5 bg-slate-300 px-[10px]">
               Class
             </span>
-            <span className="card-text">{character.firstClass}</span>
+            <span className="card-text text-green-800">
+              {character.firstClass}
+            </span>
 
-            <span className="card-text">{character.beginnerClasses}</span>
+            <span className="card-text text-blue-700">
+              {character.beginnerClasses}
+            </span>
 
-            <span className="card-text">{character.intermediateClasses}</span>
+            <span className="card-text text-purple-950">
+              {character.intermediateClasses}
+            </span>
 
-            <span className="card-text">{character.advancedClasses}</span>
+            <span className="card-text text-red-700">
+              {character.advancedClasses}
+            </span>
 
-            <span className="card-text">{character.masterClasses}</span>
+            <span className="card-text text-yellow-600">
+              {character.masterClasses}
+            </span>
 
             {/* -------------------------- Class Abilities -------------------------- */}
             {/* {character.classAbilities && (
@@ -75,7 +85,11 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
           )} */}
             {/* -------------------------- Abilities -------------------------- */}
             <span
-              className={`col-span-1 row-span-${character.abilities.length} bg-slate-300 px-[10px]`}
+              className={`col-span-1 ${
+                character.abilities.length == 5 && "row-span-5"
+              } ${character.abilities.length == 6 && "row-span-6"} ${
+                character.abilities.length == 7 && "row-span-7"
+              } bg-slate-300 px-[10px]`}
             >
               Abilities
             </span>
@@ -86,7 +100,7 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
 
             {/* -------------------------- Requirements -------------------------- */}
             <span
-              className={`col-span-1 row-span-2 bg-slate-300 px-[10px] rounded-bl-xl`}
+              className={`col-span-1 bg-slate-300 px-[10px] rounded-bl-xl ${character.requirements.length == 1 && 'row-span-1'} ${character.requirements.length == 2 && 'row-span-2'} ${character.requirements.length == 3 && 'row-span-3'}`}
             >
               Requirements
             </span>
