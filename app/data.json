@@ -103,9 +103,7 @@
     "requirements": [
       "HP+5",
       "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "Death Blow"
     ]
   },
   {
@@ -148,10 +146,7 @@
     ],
     "requirements": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "STR+2"
     ]
   },
   {
@@ -217,10 +212,7 @@
     ],
     "requirements": [
       "HP+5",
-      "STR+2",
-      "Death Blow",
-      "Tome Breaker",
-      "Quick Riposte"
+      "STR+2"
     ]
   },
   {
@@ -298,6 +290,6 @@
       "Tome Breaker",
       "Quick Riposte"
     ],
-    "requirements": ["STR+2", "Death Blow", "Tome Breaker", "Quick Riposte"]
+    "requirements": ["STR+2", "Death Blow"]
   }
 ]

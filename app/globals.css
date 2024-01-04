@@ -114,7 +114,7 @@ aside {
     min-height: 100vh;
     max-width: 800px;
     margin: 0 auto;
-    display: block;
+    display: flex;
   }
   .title {
     font-size: 30px;

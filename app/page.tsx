@@ -17,19 +17,22 @@ export default function page() {
   );
 
   const characterList = Character.map((item) => (
-      <button key={item.name} className="w-[300px] hover:bg-slate-300 hover:text-slate-700 rounded-sm flex flex-col justify-center items-center text-center py-[7px] border-t-[1px] border-b-[1px] border-slate-900">
-        <Link
-          className=" w-[300px] text-xl flex flex-col justify-center items-center font-normal"
-          to={item.name}
-          smooth={true}
-          duration={200}
-          onClick={() => {
-            setSelectedCharacter(item.name);
-          }}
-        >
-          <p className="w-[200px] text-start">{item.name}</p>
-        </Link>
-      </button>
+    <button
+      key={item.name}
+      className="w-[300px] hover:bg-slate-300 hover:text-slate-700 rounded-sm flex flex-col justify-center items-center text-center py-[7px] border-t-[1px] border-b-[1px] border-slate-900"
+    >
+      <Link
+        className=" w-[300px] text-xl flex flex-col justify-center items-center font-normal"
+        to={item.name}
+        smooth={true}
+        duration={200}
+        onClick={() => {
+          setSelectedCharacter(item.name);
+        }}
+      >
+        <p className="w-[200px] text-start">{item.name}</p>
+      </Link>
+    </button>
   ));
   return (
     <main>
@@ -72,9 +75,10 @@ export default function page() {
         <h1 className="text-yellow-500 font-bold text-center mt-1">
           **The details are based on characters' ideal end-game status**
         </h1>
+
         {/* -------------------------- Character -------------------------- */}
 
-        <CharacterSection selectedCharacter={selectedCharacter} />
+        <CharacterSection selectedCharacter={selectedCharacter} setSelectedCharacter={setSelectedCharacter}/>
       </section>
     </main>
   );

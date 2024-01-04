@@ -8,10 +8,12 @@ const Character = [...characterData].sort((a, b) =>
 
 interface CharacterSectionProps {
   selectedCharacter: any;
+  setSelectedCharacter: any;
 }
 
 const CharacterSection: React.FC<CharacterSectionProps> = ({
   selectedCharacter,
+  setSelectedCharacter,
 }) => {
   const FilterCharacter = Character.filter(
     (item) => item.name === selectedCharacter
@@ -21,9 +23,27 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
       id={character.name}
       className="card bg-slate-300"
     >
-      <h1 className="text-2xl font-medium text-black my-1 text-start mx-[20px]">
-        {character.name}
-      </h1>
+      <div className="flex justify-between items-center mb-2 w-[550px] ">
+        <h1 className="text-2xl font-medium text-black my-1 text-start mx-[20px]">
+          {character.name}
+        </h1>
+        {/* -------------------------- Select -------------------------- */}
+        <select
+          name=""
+          id=""
+          defaultValue={selectedCharacter}
+          onChange={(e) => {
+            setSelectedCharacter(e.target.value);
+          }}
+          className="block relative top-0 right-0"
+        >
+          {Character.map((character) => (
+            <option key={character.name} value={character.name}>
+              {character.name}
+            </option>
+          ))}
+        </select>
+      </div>
       {/* -------------------------- Line -------------------------- */}
       <div className=" bg-black h-[1px] blur-[1px] mb-[2px] z-10 mx-[20px]"></div>
       <div className=" bg-yellow-900 h-[1px] blur-[1px] mb-3  mx-[20px]"></div>
@@ -66,7 +86,7 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
               {character.advancedClasses}
             </span>
 
-            <span className="card-text text-yellow-600">
+            <span className="card-text text-yellow-700">
               {character.masterClasses}
             </span>
 
@@ -100,7 +120,11 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
 
             {/* -------------------------- Requirements -------------------------- */}
             <span
-              className={`col-span-1 bg-slate-300 px-[10px] rounded-bl-xl ${character.requirements.length == 1 && 'row-span-1'} ${character.requirements.length == 2 && 'row-span-2'} ${character.requirements.length == 3 && 'row-span-3'}`}
+              className={`col-span-1 bg-slate-300 px-[10px] rounded-bl-xl ${
+                character.requirements.length == 1 && "row-span-1"
+              } ${character.requirements.length == 2 && "row-span-2"} ${
+                character.requirements.length == 3 && "row-span-3"
+              }`}
             >
               Requirements
             </span>
