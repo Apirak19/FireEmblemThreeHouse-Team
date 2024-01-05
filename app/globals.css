@@ -145,6 +145,6 @@ select {
     display: none;
   }
   select {
-    display: static;
+    display: block;
   }
 }
