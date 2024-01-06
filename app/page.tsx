@@ -54,7 +54,7 @@ export default function page() {
 
       <aside>
         <div className="container">
-          <h2 className="w-[300px] text-xl text-slate-900 font-bold bg-slate-400 h-[75px] text-center flex justify-center items-center">
+          <h2 className="w-[250px] text-xl text-slate-900 font-bold bg-slate-400 h-[75px] text-center flex justify-center items-center">
             Characters
           </h2>
           <div className="content">{characterList}</div>
@@ -62,13 +62,13 @@ export default function page() {
       </aside>
       {/* -------------------------- Header -------------------------- */}
       <section className="page-content">
-        <div className="w-[60vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50">
+        <div className="w-[90vw] min-h-screen fixed top-0 bg-slate-800 bg-opacity-75 blur-xl -z-50">
           {/* ------------- background ------------- */}
         </div>
         <h1 className="title text-5xl font-bold text-center mt-5 text-white">
           Fire Emblem Three Houses
         </h1>
-        <h2 className="sub-title text-xl text-white font-bold text-center mt-1">
+        <h2 className="sub-title text-xl text-white font-bold text-center mt-1 border-4">
           Class and Ability Guide for Each Character
         </h2>
 
@@ -78,7 +78,10 @@ export default function page() {
 
         {/* -------------------------- Character -------------------------- */}
 
-        <CharacterSection selectedCharacter={selectedCharacter} setSelectedCharacter={setSelectedCharacter}/>
+        <CharacterSection
+          selectedCharacter={selectedCharacter}
+          setSelectedCharacter={setSelectedCharacter}
+        />
       </section>
     </main>
   );
