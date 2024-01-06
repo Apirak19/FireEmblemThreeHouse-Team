@@ -68,7 +68,7 @@ export default function page() {
         <h1 className="title text-5xl font-bold text-center mt-5 text-white">
           Fire Emblem Three Houses
         </h1>
-        <h2 className="sub-title text-xl text-white font-bold text-center mt-1 border-4">
+        <h2 className="sub-title text-xl text-white font-bold text-center mt-1 ">
           Class and Ability Guide for Each Character
         </h2>
 

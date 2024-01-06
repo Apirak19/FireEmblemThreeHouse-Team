@@ -25,12 +25,10 @@ main {
   width: 100vw;
   margin: 0;
   display: flex;
-  
 }
 aside {
   height: calc(100vh - 40px);
   width: 300px;
-  border: 1px solid white;
   padding: 0 25px;
 }
 .container {
@@ -59,7 +57,6 @@ aside {
 }
 .card {
   width: 500px;
-  max-height: 550px;
   margin: 0.75rem auto;
   padding: 1.25rem auto;
   background-color: rgb(148 163 184);
@@ -68,9 +65,9 @@ aside {
   box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
 }
 .detail {
-  width: 350px;
+  width: 304px;
   display: grid;
-  grid-template-columns: 150px 200px;
+  grid-template-columns: 150px 150px;
   grid-template-rows: repeat(auto, 30px);
   font-weight: 600;
   gap: 2.5px;
@@ -84,6 +81,7 @@ aside {
   box-shadow: rgba(0, 0, 0, 1) 0px 0px 10px 5px;
 }
 .card-text {
+  width: 150px;
   padding: 0px 10px;
   grid-column: span 1;
   grid-row: span 1;
@@ -120,17 +118,18 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px solid black;
 }
 select {
   display: none;
 }
 @media (max-width: 801px) {
   main {
-    min-height: 100vh;
-    max-width: 800px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+  }
+  .page-content {
+    width: 100vw;
   }
   .title {
     font-size: 30px;
@@ -145,6 +144,9 @@ select {
     display: none;
   }
   select {
-    display: block;
+    position: relative;
+    top: 5px;
+    right: 30px;
+    display: inline-block;
   }
 }

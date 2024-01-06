@@ -23,8 +23,8 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
       id={character.name}
       className="card bg-slate-300"
     >
-      <div className="flex justify-between items-center mb-2 w-[550px] ">
-        <h1 className="text-2xl font-medium text-black my-1 text-start mx-[20px]">
+      <div className="flex justify-between items-center mb-2">
+        <h1 className="text-2xl font-medium text-black mt-[15px] text-start mx-[20px]">
           {character.name}
         </h1>
         {/* -------------------------- Select -------------------------- */}
