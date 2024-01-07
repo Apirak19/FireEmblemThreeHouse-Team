@@ -62,7 +62,7 @@ aside {
   background-color: rgb(148 163 184);
   border-radius: 2.5rem;
   padding-bottom: 30px;
-  box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 3px 8.5px;
 }
 .detail {
   width: 304px;
