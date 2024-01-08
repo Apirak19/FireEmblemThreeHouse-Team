@@ -23,6 +23,7 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
       id={character.name}
       className="card bg-slate-300"
     >
+        {/* -------------------------- Card -------------------------- */}
       <div className="flex justify-between items-center mb-2">
         <h1 className="text-2xl font-medium text-black mt-[15px] text-start mx-[20px]">
           {character.name}
@@ -47,7 +48,7 @@ const CharacterSection: React.FC<CharacterSectionProps> = ({
       <div className=" bg-black h-[1px] blur-[1px] mb-[2px] z-10 mx-[20px]"></div>
       <div className=" bg-yellow-900 h-[1px] blur-[1px] mb-3  mx-[20px]"></div>
       {/* -------------------------- Detail -------------------------- */}
-      <div className="card-content flex justify-start items-start">
+      <div className="card-content flex justify-around items-start">
         <img
           src={character.image}
           alt={character.name}

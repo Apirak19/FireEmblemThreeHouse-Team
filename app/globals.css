@@ -56,13 +56,12 @@ aside {
   overflow-x: hidden;
 }
 .card {
-  width: 500px;
-  margin: 0.75rem auto;
-  padding: 1.25rem auto;
+  max-width: 550px;
   background-color: rgb(148 163 184);
   border-radius: 2.5rem;
-  padding-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 1) 0px 3px 8.5px;
+  padding-bottom: 30px;
+  margin: 0.75rem auto;
 }
 .detail {
   width: 304px;
@@ -148,5 +147,12 @@ select {
     top: 5px;
     right: 30px;
     display: inline-block;
+    height: 30px;
+  }
+  .card {
+    width: 525px;
+    margin: 0.75rem auto;
+    padding: 1.25rem auto;
+    padding-bottom: 30px;
   }
 }
